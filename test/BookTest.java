@@ -25,8 +25,8 @@ public class BookTest {
 
     @Test
     public void testPrice() {
-        assertEquals(36, this.Shame.getPrice, delta:0.001());
-        assertEquals(99, this.AmericanGods.getPrice, delta:0.001());
+        assertEquals(36, this.Shame.getPrice(), delta:0.001);
+        assertEquals(99, this.AmericanGods.getPrice(), delta:0.001);
     }
 
     @Test
